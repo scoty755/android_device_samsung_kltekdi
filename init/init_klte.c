@@ -54,13 +54,13 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     property_get("ro.bootloader", bootloader);
 
-    if (strstr(bootloader, "G900P")) {
+    if (strstr(bootloader, "G900J")) {
         /* kltespr */
-        property_set("ro.build.fingerprint", "samsung/kltespr/kltespr:4.4.2/KOT49H/G900PVPU1ANCB:user/release-keys");
-        property_set("ro.build.description", "kltespr-user 4.4.2 KOT49H G900PVPU1ANCB release-keys");
-        property_set("ro.product.model", "SM-G900P");
-        property_set("ro.product.device", "kltespr");
-        cdma_properties("1", "310120", "Sprint");
+        property_set("ro.build.fingerprint", "samsung/SCL23/SCL23:4.4.2/KOT49H/SCL23KDU1AND1:user/release-keys");
+        property_set("ro.build.description", "kltekdi-user 4.4.2 KOT49H SCL23KDU1AND1 release-keys");
+        property_set("ro.product.model", "SM-G900J");
+        property_set("ro.product.device", "kltekdi");
+        cdma_properties("1", "44054", "kltekdi");
     }
     /* TODO: Add Sprint MVNOs */
 
