@@ -30,4 +30,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfcee_access.xml:system/etc/nfcee_access.xml
 
 # common klte
-$(call inherit-product, device/samsung/klte-common/klte.mk)
+$(call inherit-product, device/samsung/klte-common/klte-common.mk)
