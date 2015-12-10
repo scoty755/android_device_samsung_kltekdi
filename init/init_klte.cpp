@@ -66,8 +66,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     property_get("ro.bootloader", bootloader);
 
-        property_set("ro.build.fingerprint", "samsung/SCL23/SCL23:4.4.2/KOT49H/SCL23KDU1AND1:user/release-keys");
-        property_set("ro.build.description", "kltekdi-user 4.4.2 KOT49H SCL23KDU1AND1 release-keys");
+        property_set("ro.build.fingerprint", "KDDI/SCL23/SCL23:5.0/LRX21T/SCL23KDU1COI2:user/release-keys");
+        property_set("ro.build.description", "kltekdi-user 5.0 LRX21T SCL23KDU1COI2 release-keys");
         property_set("ro.product.model", "SCL23");
         property_set("ro.product.device", "kltekdi");
         cdma_properties("1", "44054", "KDDI");
