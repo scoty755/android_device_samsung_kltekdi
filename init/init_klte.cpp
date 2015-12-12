@@ -70,6 +70,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "kltekdi-user 5.0 LRX21T SCL23KDU1COI2 release-keys");
         property_set("ro.product.model", "SCL23");
         property_set("ro.product.device", "kltekdi");
+        property_set("telephony.sms.pseudo_multipart", "1");
         cdma_properties("1", "44054", "KDDI");
     /* TODO: Add KDDI MVNOs */
 
